@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contato - Meu Portfólio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Contato</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="contact">
+    <h2>Entre em Contato</h2>
+    <p>Preencha o formulário abaixo ou me chame no WhatsApp. Responderei o mais rápido possível!</p>
+
+    <form action="submit_form.php" method="POST">
+      <input type="text" name="nome" placeholder="Seu nome" required>
+      <input type="email" name="email" placeholder="Seu e-mail" required>
+      <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
+      <button type="submit">Enviar 📩</button>
+    </form>
+
+    <div class="whatsapp-button">
+      <a href="https://wa.me/19978184679?text=Olá!%20Gostaria%20de%20entrar%20em%20contato."
+         target="_blank" class="btn-whatsapp">
+         📲 Fale comigo no WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Meu Portfólio | Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
